@@ -19,4 +19,11 @@ var employed = [true,false,false,true];
  console.log(players);// should have orignal arry minus the element <1>
 
 console.log(employed.pop()); // should remove last element <true> and return <true>
-console.log(employed);// reflect original arry with <3> elements instead of <4>  
+console.log(employed);// reflect original arry with <3> elements instead of <4>
+
+// Understanding Index positions
+ var roygbiv = ["red","orange","yellow","green","blue"," indigo","violet"];
+ console.log(roygbiv[0]);// red
+ console.log(roygbiv[5]); // indigo
+ console.log(roygbiv[6]); // violet
+ 
